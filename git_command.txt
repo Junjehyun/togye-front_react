@@ -1,0 +1,20 @@
+1. 프로젝트 내 git 초기화 
+-> git init
+
+2. email 최초 등록
+-> git config --global user.email "mymail@example.com"
+
+3. username 최초 등록 
+git config --global user.name "myname"
+
+4. 파일 추가하기  
+git add . 
+
+5. commit하기 
+git commit -m "message"
+
+6. github 주소 추가하기 
+git remote add origin https://git주소
+
+7. push하기 
+git push origin main 
