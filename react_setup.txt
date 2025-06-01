@@ -1,0 +1,8 @@
+1. (in folder) npx create-react-app .
+
+2. (설치가 끝난다면..) npm start
+-> 브라우저에 http://localhost:3000을 열면 CRA 기본 화면(“Vite 없이 기본 React”)이 보인다.
+-> 터미널이 살아있는 상태로 두면, src/ 안 파일을 수정할 때마다 핫 리로드(자동 새로고침)된다.
+
+3. 혹시 npn start(혹은 npm run start)가 powershell에서 실행이 안될때는 
+-> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser 입력 (실행정책을 RemoteSigned로 설정)
